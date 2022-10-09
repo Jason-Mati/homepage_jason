@@ -1,0 +1,171 @@
+@import "reset.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+}
+
+.background {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  margin: 0;
+  font-size: 25px;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  transition: opacity 5s ease-in-out;
+}
+
+.clock {
+  position: relative;
+  margin-top: 50px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+}
+
+.welcome {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 100;
+  color: white;
+}
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+#greeting {
+  position: relative;
+  z-index: 2;
+  color: white;
+  margin: 40px;
+  opacity: 50%;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+#login-form {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  display: absolute;
+  color: white;
+  height: 60px;
+  opacity: 70%;
+}
+.inputBox {
+  border-radius: 10px;
+  border-color: white;
+  width: 400px;
+}
+.btn {
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #323232;
+  color: white;
+  border-color: #323232;
+}
+
+#quote {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-size: 25px;
+}
+
+.todo-box {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+.todo-title {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+#todo-form {
+  position: relative;
+  z-index: 2;
+  color: white;
+  margin-top: 50px;
+  opacity: 70%;
+  border-radius: 50px;
+  height: 100px;
+}
+.todo-input {
+  height: 40px;
+}
+#todo-list {
+  position: relative;
+  z-index: 2;
+  color: white;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.liBox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: darkslategray;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  border-radius: 10px;
+}
+.x-btn {
+  color: red;
+  border-radius: 10px;
+  background-color: gold;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#weather {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.reset {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+.resetBtn {
+  height: 40px;
+  width: 120px;
+  opacity: 70%;
+}
+
+.hidden {
+  display: none;
+}
